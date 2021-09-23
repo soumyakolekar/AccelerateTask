@@ -15,7 +15,6 @@ public class Scroll {
 		driver.get("http://openclinic.sourceforge.net/openclinic/home/index.php");
 
 	((JavascriptExecutor)driver).executeScript("scroll(0, 400)");
-//	JavascriptExecutor js = (JavascriptExecutor) driver;
-//	js.executeScript("window.scrollBy(0,250)", "");
+
   }
 }
