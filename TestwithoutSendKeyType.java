@@ -19,7 +19,7 @@ public class TestwithoutSendKeyType {
 		
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 	      js.executeScript ("document.getElementById('identifierId').value='Some_Random_Mail@gmail.com'");
-		Thread.sleep(2000);
+		
 		
 		driver.close();
 		driver.quit();
