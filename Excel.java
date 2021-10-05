@@ -1,4 +1,4 @@
-package Test1;
+package src.Test1;
 
 
 import java.io.File;
